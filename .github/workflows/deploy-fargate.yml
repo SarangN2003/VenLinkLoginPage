@@ -45,11 +45,11 @@ on:
       - master
   workflow_dispatch:
 
-env:
-  AWS_REGION: ${{ secrets.AWS_REGION }}
-  ECS_CLUSTER: ${{ secrets.ECS_CLUSTER }}
-  ECS_SERVICE: ${{ secrets.ECS_SERVICE }}
-  ECS_TASK_DEFINITION: ${{ secrets.ECS_TASK_DEFINITION }}
+# env:
+#   AWS_REGION: ${{ secrets.AWS_REGION }}
+#   ECS_CLUSTER: ${{ secrets.ECS_CLUSTER }}
+#   ECS_SERVICE: ${{ secrets.ECS_SERVICE }}
+#   ECS_TASK_DEFINITION: ${{ secrets.ECS_TASK_DEFINITION }}
 
 jobs:
   deploy:
